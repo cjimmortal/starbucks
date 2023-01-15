@@ -20,6 +20,9 @@
     .product-information .product-information-content{
         padding: 0 5rem 0 3rem;
     }
+    .product-info-content-div {
+        z-index: 0;
+    }
     .product-info-box{
         width:463px;
         padding: 4rem 3rem 0 3rem;
@@ -48,6 +51,7 @@
     }
     .si-title{
         padding: 10rem 11rem 0 5rem;
+        z-index: 0;
     }
     .si-description{
         padding: 13rem 11rem 0 5rem;
@@ -98,7 +102,7 @@
         flex-direction: column;
         padding: 1rem 0 12rem 3rem;
         display:none;
-        z-index: 0;
+        z-index: 1;
     }
     
     
@@ -287,6 +291,6 @@
     flex-direction: column;
     padding: 1rem 0 12rem 1.5rem;
     display: none;
-    z-index: 0;
+    z-index: 1;
 }
 }

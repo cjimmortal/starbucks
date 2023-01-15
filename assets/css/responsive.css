@@ -164,6 +164,9 @@
 
 
 @media screen and (max-width:500px){
+    .nav-bar {
+        padding: 0 1rem 0 0.5rem;
+    }
     .nav-bar .nav-logo {
         width: 68px;
         height: 35px;
@@ -181,7 +184,7 @@
         text-align: right;
     }
     .nav-hero .hero-title-decription {
-        padding: 7rem 0 0 5rem;
+        padding: 7rem 0 0 1.5rem;
     }
     .nav-hero .hero-title-decription p{
         padding-right: 18rem;

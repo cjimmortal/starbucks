@@ -126,7 +126,7 @@ html,body{
 }
 .nav-hero .hero-title-decription .hero-btn{
     color:white;
-    background-color:green;
+    background-color:#007851;
     border-color: transparent;
     border-radius:25px;
     width: 200px;
@@ -183,7 +183,7 @@ html,body{
 }
 .featured-description{
     color:white;
-    font-size:smaller;
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
 }
 
 .product-information{
@@ -260,12 +260,13 @@ html,body{
    
 }
 
-.toc-title{
-    font-weight: 500;
+.tox-title{
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
+    font-weight: bold;
 }
 
 .toc-description{
-    font-size: smaller;
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
 }
 
 .shop-information-main{
@@ -273,7 +274,7 @@ html,body{
     width:100%;
     /* padding: 0 9rem 0 9rem; */
     color: white;
-    background-image: url("../img/asael-pena-n-HtQS7IgU4-unsplash.jpg");
+    background-image: url("../img/bg.jpg");
     background-size: cover;
     
 
@@ -291,11 +292,13 @@ html,body{
     
 } */
 .si-title{
+    font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
     padding: 16rem 11rem 0 11rem;
     z-index: 1;
     position: absolute;
 }
 .si-description{
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
     padding: 19rem 11rem 0 11rem;
     width:830px;
     z-index: 1;
@@ -406,10 +409,11 @@ footer{
 }
 
 .f-title{
-    font-size: x-large;
+    font-size: clamp(0.9375rem, 0.5469rem + 1.25vw, 1.25rem);
 }
 .f-description{
-    font-size: small;
+    font-size: clamp(0.75rem, 0.5156rem + 0.75vw, 0.9375rem);
+
 }
 
 .f-div-2{

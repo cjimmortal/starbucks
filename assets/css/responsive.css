@@ -1,0 +1,163 @@
+@media screen and (max-width:992px){
+    /* navigation bar */
+    .nav-bar{
+        padding: 0 4rem 0 4rem;
+    }
+    .nav-bar ul li a{
+        margin:1rem 1rem 1rem 0rem;
+    }
+    .nav-bar ul li .Sign-in-btn{
+        margin: 0 0.5rem 0 0;
+    }
+    /* navigation bar end*/
+    /* hero */
+    .nav-hero .hero-title-decription{
+        padding: 14rem 0 0 5rem;
+    }
+    /* hero end */
+
+    /* product-information */
+    .product-information .product-information-content{
+        padding: 0 5rem 0 3rem;
+    }
+    .product-info-box{
+        width:463px;
+        padding: 4rem 3rem 0 3rem;
+        
+    }
+    .product-information .product-information-content .product-information-img{
+        margin-left: 25rem;
+        position: absolute;
+        z-index: 0;
+    }
+    /* product-information end */
+
+    /* types of coffee */
+    .toc-image{
+        max-width:100px;
+    }
+    .toc-content{
+        width: 154px;
+    }
+
+    /* types of coffee end */
+
+    /* shop information */
+    .shop-information-main{
+        height: 507px;
+    }
+    .si-title{
+        padding: 10rem 11rem 0 5rem;
+    }
+    .si-description{
+        padding: 13rem 11rem 0 5rem;
+        width: 764px;
+    }
+    .si-btn{
+        margin: 0rem 11rem 0 5rem;
+    }
+    /* shop information end */
+
+    /* footer */
+    footer{
+        padding: 0 2rem 0 2rem;
+    }
+    /* footer end */
+} 
+
+
+
+@media screen and (max-width:768px){
+    /* featured products */
+    .featured-img{
+        max-height:200px;
+        max-width:182px;
+    }
+    .featured-coffee-content{
+        padding: 1rem 0rem 0 0rem;
+       
+    }
+    .featured-information{
+        width: 182px;
+    }
+    .featured{
+        overflow:hidden;
+    }
+    /* featured products end */
+}
+
+@media screen and (max-width:700px){
+    /* nav bar */
+    .nav-bar ul{
+        height: 500px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgb(10, 56, 10);
+        flex-direction: column;
+        padding: 2rem 0 12rem 3rem;
+        display:none;
+        z-index: 0;
+    }
+    
+    
+    .nav-bar ul li{
+        padding:4px;
+    }
+    .right{
+        width: 100%;
+        display:block;
+    }
+    .close-btn{
+        width: 100%;
+        display: block;
+        padding-bottom: 2rem;
+    }
+    /* nav bar end */
+
+
+
+
+    /* featured products */
+    .featured-coffee-content{
+        margin-bottom:5rem;
+        padding: 1rem 0rem 0 0rem;
+        flex-direction: column;
+        text-align: center;
+    }
+    .featured-img{
+        max-height:262px;
+        max-width:162px;
+    }
+    
+    .featured-information{
+        width:207px;
+        padding:0 1rem 0 1rem;
+        margin-right:3rem;
+        float:right;
+    }
+    .featured{
+        margin: 0.5rem;
+    }
+    /* featured products end */
+
+
+    /* product-information */
+    .product-information .product-information-content {
+        width: 100%;
+        height: auto;
+        padding: 0 0 0 0;
+        justify-content: center;
+        display: flex;
+    }
+    .product-information-img{
+        display: none;
+    }
+    .product-info-content-div{
+        margin-right:0px;
+        justify-content: center;
+        display: flex;
+    }
+    /* product-information end */
+}

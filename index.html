@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <link rel="icon" class="logo-tab" href="assets/img/143883_logo_starbucks_icon.png">
+    <script defer src="assets/js/app.js"></script>
     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -17,48 +19,42 @@
 <body id="body">
     <div class="main-div">
 
-        <div class="nav-bar">
-            <img class="nav-logo" src="assets/img/logo.png" alt="shop logo">
-            <ul id="p">
-                <div class="close-btn" onclick="closemenu()">
-                    <img class="nav-close-icon" src="assets/img/close.png" alt="shop logo">
+        <section class="hidden">
+            <div class="nav-bar ">
+                <img class="nav-logo" src="assets/img/logo.png" alt="shop logo">
+                <ul id="p">
+                    <div class="close-btn" onclick="closemenu()">
+                        <img class="nav-close-icon" src="assets/img/close.png" alt="shop logo">
+                    </div>
+                    <li><a href="#one">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#home">Featured</a></li>
+                    <li><a href="#"class="Sign-in-btn">Sign in</a></li>
+                    <li><a href="#" class="Log-in-btn">Login</a></li>
+                </ul>
+                <div class="right" onclick="openmenu()">
+                    <img class="nav-menu-icon" src="assets/img/menu.png" alt="shop logo">
                 </div>
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Contact Us</a></li>
-                <li><a>News</a></li>
-                <li><a class="Sign-in-btn">Sign in</a></li>
-                <li><a class="Log-in-btn">Login</a></li>
-            </ul>
-            <div class="right" onclick="openmenu()">
-                <img class="nav-menu-icon" src="assets/img/menu.png" alt="shop logo">
             </div>
-        </div>
-        <script>
-           function openmenu(){
-            document.getElementById("p").style.display="block";
-           }
-           function closemenu(){
-            document.getElementById("p").style.display="none";
-            document.getElementById(html).style.overflow="hidden";
-            document.getElementById("body").style.overflow="hidden";
-            
 
-           }
-        </script>
+       
+      
+            <div class="nav-hero " id="one">
+                <!-- <img class="nav-bg" src="assets/img/nathan-dumlao-KixfBEdyp64-unsplash.jpg" alt="shop logo"> -->
+                
+                <div class="hero-title-decription ">
+                    <h1>Starbucks for Life</h1>
+                    <p>Experience the rich, bold flavor in every sip with Starbucks coffee. Sourced from the world's best beans, expertly roasted, and crafted with care. Your daily cup just got upgraded.</p>
+                    <button class="hero-btn">Order Now</button>
+                </div>
+                
+            </div> 
+        </section>
 
-
-        <div class="nav-hero">
-            <!-- <img class="nav-bg" src="assets/img/nathan-dumlao-KixfBEdyp64-unsplash.jpg" alt="shop logo"> -->
-            
-            <div class="hero-title-decription">
-                <h1>Starbucks for Life</h1>
-                <p>Experience the rich, bold flavor in every sip with Starbucks coffee. Sourced from the world's best beans, expertly roasted, and crafted with care. Your daily cup just got upgraded.</p>
-                <button class="hero-btn">Order Now</button>
-            </div>
-            
-        </div>
-        <div class="division">
+      >
+        <div class="division hidden " id="home">
+            <br>
             <center>
                 <p class="featured-text">Featured Coffee</p>
                 <img class="featured-division-img" src="assets/img/e6362f877eeda2859cdf74856e0ecd5d-removebg-preview.png">
@@ -66,8 +62,8 @@
 
         </div>
        
-        
-        <div class="featured-coffee-content">
+    
+        <div class="featured-coffee-content hidden">
             <!-- featured 1 -->
             <div class="featured">
                 <img class="featured-img" src="assets/img/nathan-dumlao-tA90pRfL2gM-unsplash.jpg">
@@ -98,8 +94,9 @@
             </div>
             <!-- end -->
         </div>
-
-        <div class="product-information">
+ 
+    
+        <div class="product-information hidden">
                 <div class="product-information-content">
                     <div class="product-info-content-div">
                         <div class="product-info-box">
@@ -111,7 +108,7 @@
                         <img class="product-information-img" src="assets/img/tyler-nix-jE-27l7V3NU-unsplash.jpg">
                 </div>
         </div>
-        <div class="division">
+        <div class="division hidden">
             <center>
                 <p class="featured-text">Coffee We Serve</p>
                 <img class="featured-division-img" src="assets/img/e6362f877eeda2859cdf74856e0ecd5d-removebg-preview.png">
@@ -119,7 +116,7 @@
 
         </div>
 
-        <div class="types-of-coffee">
+        <div class="types-of-coffee hidden">
             <div class="toc-content">
                 <img class="toc-image" src="assets/img/1.png">
                 <p class="tox-title">Expresso</p>
@@ -167,7 +164,7 @@
         
         
 
-        <div class="shop-information-main">
+        <div class="shop-information-main hidden" id="about">
             <div class="shop-information">
                 
                 <h3 class="si-title">Coffee & Craft</h3>
@@ -180,8 +177,8 @@
        
     
 
-        <footer>
-            <div class="footer">
+        <footer id="contact">
+            <div class="footer hidden">
                 <div class="f-div-1">
                     <p class="f-title">Contact Us</p>
                     <p class="f-description">(434) 263-5545198 Woodson LnShipman, Virginia(VA), 22971
@@ -201,6 +198,9 @@
 
     </div>  
 </body>
+
+
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

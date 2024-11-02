@@ -26,7 +26,7 @@ html,body{
     border-radius: 50px;
 }
 .main-div{
-    background-color:#897051;
+    background-color:#2d2e28;;
     overflow: hidden;
     
 }
@@ -119,11 +119,13 @@ html,body{
    width: 100%;
    background-image: url("../img/hero.jpg");
    background-repeat: no-repeat;
-   background-size: 100% 700px;
+   background-size: cover;
+    background-position-y: -16rem;
    overflow: hidden;
    filter: saturate(137%);
     -webkit-filter: saturate(137%);
     -moz-filter: saturate(137%);
+    /* filter: grayscale(100%); */
 
     
 }
@@ -164,12 +166,13 @@ html,body{
     font-size: clamp(0.75rem, 0.125rem + 2vw, 1.25rem);
     font-weight: 500;
     margin-top:3rem;
+    color:white!important;
 }
 .featured-division-img{
     height:300px;
     margin-top:-10rem;
     margin-bottom:-6rem;
-
+    filter: brightness(0) invert(1);
 }
 
 .featured-coffee-content{
